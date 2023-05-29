@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Nunito Sans', sans-serif;
+}
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+.loader {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 5rem;
+}
+
+/* Header Section starts here */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 11rem;
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.header h1 {
+  font-size: 2.2rem;
+}
+.header button {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1.8rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.moon {
+  font-size: 2rem;
+}
+.searchBox {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1292px;
+  margin: 3rem auto 0 auto;
+}
+.searchBox input {
+  height: 5rem;
+  width: 40rem;
+  padding: 1rem 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+}
+select,
+option {
+  padding: 1rem 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+}
+.containner {
+  max-width: 1440px;
+  margin: 4rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.countryCard {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.countryCard img {
+  height: 200px;
+  width: 100%;
+}
+.details {
+  margin: 2rem;
+}
+.details h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(200, 15%, 8%);
+}
+.details span {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+  color: hsl(200, 15%, 8%);
+}
+.details p {
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: hsl(200, 15%, 8%);
+}
