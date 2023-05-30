@@ -27,7 +27,7 @@ const CountryCard = ({ name, flag, population, region, capital }) => {
 CountryCard.propTypes = {
   name: PropTypes.string.isRequired,
   flag: PropTypes.string,
-  population: PropTypes.number,
+  population: PropTypes.string,
   region: PropTypes.string,
   capital: PropTypes.string,
 }
