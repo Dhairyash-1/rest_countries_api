@@ -1,7 +1,5 @@
-import { useState } from 'react'
 import '../index.css'
 import PropTypes from 'prop-types'
-// import { DarkStyle, LightStyle } from './Header'
 
 const CountryCard = ({ name, flag, population, region, capital }) => {
   return (
